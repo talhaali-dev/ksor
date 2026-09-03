@@ -2,7 +2,7 @@
   "name": "ksor-monorepo",
   "version": "0.0.0",
   "private": true,
-  "description": "Monorepo for ksor — the Knowledge System of Record for humans and AI agents.",
+  "description": "Monorepo for ksor \u2014 the Knowledge System of Record for humans and AI agents.",
   "homepage": "https://github.com/panaversity/ksor#readme",
   "license": "Apache-2.0",
   "author": "Panaversity",
@@ -12,7 +12,7 @@
   },
   "type": "module",
   "scripts": {
-    "build": "pnpm -r build",
+    "build": "node api.js && pnpm -r build",
     "typecheck": "pnpm -r typecheck && tsc -p scripts",
     "lint": "oxlint --fix",
     "lint:ci": "oxlint",

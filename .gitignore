@@ -28,3 +28,6 @@ packages/ksor/ksor-tarball-run-*/
 # rule, so running the flag on it left an untracked copy of the whole record in
 # the working tree.
 **/.ksor/out/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
