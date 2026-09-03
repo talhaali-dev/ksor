@@ -2,7 +2,7 @@
   "name": "@panaversity/ksor-content-gateway",
   "version": "0.0.0",
   "private": true,
-  "description": "The KSoR content gateway: the MCP door (search, outline, read) over a governed corpus — stateless Streamable HTTP. One gateway per record; this one serves content.",
+  "description": "The KSoR content gateway: the MCP door (search, outline, read) over a governed corpus \u2014 stateless Streamable HTTP. One gateway per record; this one serves content.",
   "license": "Apache-2.0",
   "author": "Panaversity",
   "repository": {
@@ -30,7 +30,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "build": "tsdown && node copy-schema.mjs",
+    "build": "node init && tsdown && node copy-schema.mjs",
     "typecheck": "tsc -p tsconfig.json"
   },
   "dependencies": {
